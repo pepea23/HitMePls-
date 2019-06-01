@@ -5,6 +5,8 @@
   "repository": "https://github.com/pepea23/HitMePls-.git",
   "author": "Ittidate <pepea.23@live.com>",
   "license": "MIT",
+  "scripts": {
+  "cypress":"cypress"},
   "devDependencies": {
     "cypress": "^3.3.1"
   }
