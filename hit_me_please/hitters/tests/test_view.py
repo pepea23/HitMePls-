@@ -11,7 +11,7 @@ class LandingPageViewTest(TestCase):
         self.assertContains(response, expected, status_code=200)
         expected = '<input type ="email" name="email" />'
         self.assertContains(response, expected, status_code=200)
-        expected = '<button type ="submit" >Sunbmit </button>'
+        expected = '<button type ="submit" >Submit </button>'
         self.assertContains(response, expected, status_code=200)
 
     def test_view_should_have_submit_form(self):
