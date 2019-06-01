@@ -9,7 +9,7 @@ class LandingPageViewTest(TestCase):
         self.assertContains(response, expected, status_code=200)
         expected = '<input type="hidden" name="csrfmiddlewaretoken"'
         self.assertContains(response, expected, status_code=200)
-        expected = '<input type ="email" />'
+        expected = '<input type ="email" name="email" />'
         self.assertContains(response, expected, status_code=200)
         expected = '<button type ="submit" >Sunbmit </button>'
         self.assertContains(response, expected, status_code=200)
