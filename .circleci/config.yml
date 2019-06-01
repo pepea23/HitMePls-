@@ -48,7 +48,7 @@ jobs:
           name: run tests
           command: |
             . ENV/bin/activate
-           cd hit_me_please && python manage.py test
+            cd hit_me_please && python manage.py test
 
       - store_artifacts:
           path: test-reports
